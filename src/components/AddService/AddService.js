@@ -35,7 +35,7 @@ const AddService = () => {
       .then((result) => {
         console.log(result);
         if (result) {
-          alert("This Place Is Added to My Order ");
+          alert("This Order Is Added  ");
         } else {
           alert("Not Added Yet");
         }

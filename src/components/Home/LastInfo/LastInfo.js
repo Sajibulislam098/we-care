@@ -7,14 +7,14 @@ const LastInfo = () => {
         <div className="col-md-6">
           <img
           className="w-100"
-            src="https://www.hotelscombined.com/news/wp-content/uploads/sites/314/2020/01/Nkuringo-Bwindi-Gorilla-Lodge-3.jpg"
+            src="https://www.bdstall.com/asset/product-image/giant_113109.jpg"
             alt=""
           />
           {/* <img className="w-100" src="https://www.hotelscombined.com/news/wp-content/uploads/sites/314/2020/01/Sarova-Mara-Game-Camp-3.jpg" alt="" /> */}
         </div>
 
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-center mt-2">
-          <h2>Fill the form for Booking a Hotel Near Your trip</h2>
+          <h2>Fill the form for Orders More Awesome Products</h2>
           <form action="">
             <input type="text" placeholder="name" className="mt-2 mb-2"/>
             <br />

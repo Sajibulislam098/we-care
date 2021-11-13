@@ -5,8 +5,9 @@ import Banner from "../Banner/Banner";
 import Offers from "../Offers/Offers";
 import Review from "../Review/Review";
 
-import FirstInfo from './FirstInfo/FirstInfo';
-import LastInfo from './LastInfo/LastInfo';
+import LastInfo from "./LastInfo/LastInfo";
+import Reviews from "./Reviews/Reviews";
+import Services from "./Services/Services";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -38,10 +39,10 @@ const Home = () => {
       ) : (
         <>
           <Banner></Banner>
-     
-          <FirstInfo></FirstInfo>
+          <Services></Services>
+
           <Offers offers={offers}></Offers>
-         
+          <Reviews></Reviews>
           <LastInfo></LastInfo>
         </>
       )}

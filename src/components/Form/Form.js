@@ -135,7 +135,7 @@ const Form = (props) => {
                   ) : (
                     <input
                       type="submit"
-                      value="BOOK NOW"
+                      value="ORDER NOW"
                       className="login100-form-btn book-btn"
                     />
                   )}

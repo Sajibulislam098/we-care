@@ -36,11 +36,11 @@ const Banner = () => {
                 Fusce id tortor ac justo ornare eleifend. Etiam vitae mattis
                 dolor, at molestie mauris tiam ullamcorper semper arcu.{" "}
               </Typography>
-             <Link to="/explore"> <Button 
+             <Link to="/explore" style={{textDecoration:'none'}}> <Button 
                 variant="contained"
-                style={{ backgroundColor: "#004d40" }}
+                style={{textDecoration:'none', backgroundColor: "red" }}
               >
-              Explore
+              Explore more Products
               </Button></Link>
             </Box>
           </Grid>

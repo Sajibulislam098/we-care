@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-               <img src="https://www.liveafrica.com/sites/all/themes/snowman/logo.png" className="w-100" alt="" />
+               <img src="http://wordpress.zcube.in/wesecure/wp-content/themes/wesecure/inc/assets/images/logo.png" className="w-100" alt="" />
                 
                 <p className="mt-4 ">
                   <small>
@@ -63,7 +63,7 @@ const Footer = () => {
 
         </div>
         <h6 className="mt-5">
-          <small className=" text-light d-flex justify-content-center align-items-center">LIVE AFRICA © . All rights reserved.</small>
+          <small className=" text-light d-flex justify-content-center align-items-center">WE SECURE © . All rights reserved.</small>
         </h6>
       </div>
     </div>

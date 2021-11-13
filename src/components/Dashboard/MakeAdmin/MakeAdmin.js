@@ -35,7 +35,7 @@ const MakeAdmin = () => {
         e.preventDefault()
     }
     return (
-        <div c>
+        <div >
             
            
             <div className="limiter book-limiter">

@@ -29,10 +29,13 @@ import AddService from "./../AddService/AddService";
 import ManageAllOffers from "../ManageAllOffers/ManageAllOffers";
 import Review from "./../Review/Review";
 import AllBookings from "../AllBookings/AllBookings";
+import Header from './../Header/Header';
+import Footer from './../Footer/Footer';
 
 const drawerWidth = 200;
 
 function Dashboard(props) {
+  const {  logout } = useAuth();
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   let { path, url } = useRouteMatch();
@@ -43,7 +46,10 @@ function Dashboard(props) {
 
   const drawer = (
     <div>
+      
       <Toolbar />
+      <Divider />
+      <Typography style={{  color: "red",margin:"20px" }}>User DashBoard</Typography>
       <Divider />
       <Link to="/explore" style={{ textDecoration: "none", color: "black" }}>
         <Button color="inherit">Explore Product</Button>
@@ -57,8 +63,11 @@ function Dashboard(props) {
         <Button color="inherit">Review</Button>
       </Link>
       <Divider />
+      
       {admin && (
         <Box>
+          <Typography style={{  color: "red",margin:"20px" }}>Admin Part</Typography>
+          <Divider />
           <Link to={`${url}/makeAdmin`} style={{ textDecoration: "none", color: "black" }}>
             <Button color="inherit">Make Admin</Button>
           </Link>
@@ -82,10 +91,17 @@ function Dashboard(props) {
           >
             <Button color="inherit">Manage Orders</Button>
           </Link>
+          
         </Box>
       )}
 
       <Divider />
+      <button
+                    onClick={logout}
+                    className="btn btn-outline-danger logout-btn mt-5"
+                  >
+                    Log Out
+                  </button>
     </div>
   );
 
@@ -93,6 +109,7 @@ function Dashboard(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
+    <>
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar
@@ -181,6 +198,8 @@ function Dashboard(props) {
         </Switch>
       </Box>
     </Box>
+    
+    </>
   );
 }
 

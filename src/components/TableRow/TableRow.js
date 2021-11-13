@@ -53,7 +53,7 @@ const TableRow = (props) => {
       <td>{userName}</td>
       <td>{userEmail}</td>
       <td>{phone}</td>
-      <td>{destinationName}</td>
+     
      
       <td>${price}</td>
       {props.edit ? (

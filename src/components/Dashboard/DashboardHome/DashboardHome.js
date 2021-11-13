@@ -2,6 +2,8 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import AllBookings from './../../AllBookings/AllBookings';
 import MyBookings from './../../MyBookings/MyBookings';
+import { Col, Container, Row } from 'react-bootstrap';
+
 
 
 
@@ -13,7 +15,8 @@ const DashboardHome = () => {
 
     return (
         <div>
-               <Grid container spacing={1}>
+           
+               <Grid>
                         
                         <Grid item xs={6} sm={12}>
                             <MyBookings> date={date}</MyBookings>

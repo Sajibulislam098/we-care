@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import "./Header.css";
 import { Button } from '@mui/material';
+import { CloseButton } from "react-bootstrap";
 
 const Header = () => {
   // getting user data from context api
@@ -44,61 +45,18 @@ const Header = () => {
               {user.email && (
                 <><NavLink
                 to="/dashboard"
-                style={{ textDecoration: "none", color: "black" }}
+                style={{ textDecoration: "none", color: "black" ,fontWeight:"800"}}
               >
                 <Button color="inherit">Dashboard</Button>
               </NavLink>
-                  <li className="nav-item">
-                    <NavLink
-                      to="/myBookings"
-                      className="nav-link me-3"
-                      activeClassName="active-nav"
-                    >
-                      My Bookings
-                    </NavLink>
-                  </li>
-                  <li className="nav-item">
-                    <div className="dropdown">
-                      <button
-                        className="btn dropdown-toggle admin-panel-btn"
-                        type="button"
-                        id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Admin Panel
-                      </button>
-                      <ul
-                        className="dropdown-menu"
-                        aria-labelledby="dropdownMenuButton1"
-                      >
-                        <li>
-                          <NavLink className="dropdown-item" to="/addProduct">
-                            Add Offer
-                          </NavLink>
-                        </li>
-
-                        <li>
-                          <NavLink to="/allOffers" className="dropdown-item">
-                            Manage All Offers
-                          </NavLink>
-                        </li>
-
-                        <li>
-                          <NavLink to="/allBookings" className="dropdown-item">
-                            Manage All Bookings
-                          </NavLink>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
+               
                 </>
               )}
             </ul>
           </div>
          
           <div
-            className="collapse navbar-collapse justify-content-between"
+            className="collapse navbar-collapse justify-content-between ms-2"
             id="navbarNav"
           >
             {user.email ? (
