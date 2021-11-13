@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import Form from "../Form/Form";
 import Modal from "../Modal/Modal";
 import "./BookOffer.css";
+import Header from './../Header/Header';
 
 const BookOffer = () => {
   const id = useParams().id;
@@ -25,6 +26,7 @@ const BookOffer = () => {
     }, 2000);
   };
   return (
+    <><Header></Header>
     <div className="container book-container">
       <Modal text={"Booked Successfully"}></Modal>
       {loading ? (
@@ -64,6 +66,7 @@ const BookOffer = () => {
         </>
       )}
     </div>
+    </>
   );
 };
 
