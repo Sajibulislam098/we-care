@@ -1,0 +1,103 @@
+[
+  {
+    "id": "1",
+    "key": 100,
+    "name": "Dahua DH-HAC-HDW1209TLQP-LED 2M Color HDCVI Dome Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/hac-hdw1209tlqp-led/dahua-dh-hac-hdw1209tlqp-led-2m-color-hdcvi-dome-camera-01-228x228.jpg",
+    "price": "2500",
+    "description": "WiFi is not needed to operate home security cameras. Home security cameras that do not connect to Wifi can be wired to a dedicated recording or storage device, and a viewing monitor that is part of its own system so that a router or internet service is not required."
+  },
+  {
+    "id": "2",
+    "key": 101,
+    "name": "Dahua DH-HAC-HFW1209CP-A-LED 2MP Bullet CC Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/dh-hac-hfw1209cp-a-led/dahua-dh-hac-hfw1209cp-a-led-bullet-cc-camera-228x228.jpg",
+    "price": "2,150",
+    "description": "Usage: Indoor Type : CC Camera Camera Type: Fixed Mega Pixel: 2MP"
+  },
+  {
+    "id": "3",
+    "key": 104,
+    "name": "Hikvision DS-2CE56C0T-IRPF HD 720p Indoor IR Turret Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/cc-camera/hikvision/ds-2ce56c0t-irpf/ds-2ce56c0t-irpf-1-228x228.jpg",
+    "price":"1,200",
+    "description": "Namibia is renowned for its wide open spaces, desert elephants and the world’s most spectacular sand dunes. With over 42% of the country protected in national parks and community reserves, the country is often called ‘Africa’s"
+  },
+  {
+    "id": "4",
+    "key": 102,
+    "name": "Dahua IMOU IPC-C22CP Cue2C Indoor Security Camera    ",
+    "img": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/imou-c22cp-cue2c/dahua-imou-ipc-c22cp-cue2c-indoor-security-camera-01-228x228.jpg",
+
+    "price": "2,760",
+    "description": "These iconic ‘Big 5’ wildlife parks are an essential stop on any safari to South Africa. Explore these incredible reserves from the comfort of some of the most luxurious lodges on the continent in an open 4x4 vehicle with your highly"
+  },
+  {
+    "id": "5",
+    "key": 103,
+    "name": "Dahua DH-HAC-HDW1209TLQP-LED 2MP Dome CC Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/security-camera/dahua/dh-hac-hdw1209tlqp-led/dahua-dh-hac-hdw1209tlqp-led-cc-camera-228x228.jpg",
+    "price":"2,050",
+    "description": "Home to the world-famous Victoria Falls, these countries straddle the Zambezi River and are hidden gem safari destinations. Explore Hwange and Zambezi National Parks in Zimbabwe and South Luangwa and Lower Zambezi Parks"
+  }
+  ,
+ 
+  {
+    "id": "6",
+    "key": 105,
+    "name": "TP-Link Tapo C310 Outdoor Security Wi-Fi IP Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ip-camera/tp-link/tapo-c310/tapo-c310-228x228.jpg",
+   
+    "price":"3,375", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+  ,
+ 
+  {
+    "id": "7",
+    "key": 105,
+    "name": "Hikvision DS-2CE56C0T-IRF 1MP HD IR Fixed Turret Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/cc-camera/hikvision/ds-2ce56c0t-irf/ds-2ce56c0t-irf-1-228x228.png",
+   
+    "price":"3,375", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+  ,
+ 
+  {
+    "id": "8",
+    "key": 105,
+    "name": "TP-Link Tapo C310 Outdoor Security Wi-Fi IP Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ip-camera/tp-link/tapo-c310/tapo-c310-228x228.jpg",
+   
+    "price":"3,375", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+  ,
+ 
+  {
+    "id": "9",
+    "key": 105,
+    "name": "TP-Link Tapo C310 Outdoor Security Wi-Fi IP Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ip-camera/tp-link/tapo-c310/tapo-c310-228x228.jpg",
+   
+    "price":"3,375", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+  ,
+ 
+  {
+    "id": "10",
+    "key": 105,
+    "name": "TP-Link Tapo C310 Outdoor Security Wi-Fi IP Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ip-camera/tp-link/tapo-c310/tapo-c310-228x228.jpg",
+   
+    "price":"3,375", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+  ,
+ 
+  {
+    "id": "11",
+    "key": 105,
+    "name": "TP-Link Tapo C310 Outdoor Security Wi-Fi IP Camera",
+    "img": "https://www.startech.com.bd/image/cache/catalog/ip-camera/tp-link/tapo-c310/tapo-c310-228x228.jpg",
+   
+    "price":"3,375", "description": "Tanzania is home to three of Africa’s most iconic parks: the Serengeti, Ngorongoro Crater and Mount Kilimanjaro. Our Tanzania safaris are custom crafted to maximize wildlife experiences and create authentic encounters with the local"
+  }
+]
