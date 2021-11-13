@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router";
 import "./NotFound.css";
+import Header from './../Header/Header';
 
 const NotFound = () => {
   const history = useHistory(); // History API
@@ -13,6 +14,7 @@ const NotFound = () => {
     history.push("/home");
   };
   return (
+    <>   <Header></Header>
     <div className="error-container container">
       <img src="/error.svg" alt="Error" />
       <div className="mt-4">
@@ -27,6 +29,7 @@ const NotFound = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

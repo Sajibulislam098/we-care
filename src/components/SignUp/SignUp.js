@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useHistory } from "react-router";
 import useAuth from "../../hooks/useAuth";
+import Header from './../Header/Header';
 
 const SignUp = () => {
   const [name, setName] = useState("");
@@ -61,7 +62,9 @@ const SignUp = () => {
   },[])
 
   return (
+    <>   <Header></Header>
     <div className="login-container">
+   
       {!checkUser ? (
         <div className="spinner d-flex align-items-center justify-content-center">
           <button className="btn btn-primary" type="button" disabled>
@@ -163,6 +166,7 @@ const SignUp = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

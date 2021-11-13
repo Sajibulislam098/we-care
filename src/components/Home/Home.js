@@ -8,6 +8,7 @@ import Review from "../Review/Review";
 import LastInfo from "./LastInfo/LastInfo";
 import Reviews from "./Reviews/Reviews";
 import Services from "./Services/Services";
+import Header from './../Header/Header';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -37,7 +38,7 @@ const Home = () => {
           </button>
         </div>
       ) : (
-        <>
+        <> <Header></Header>
           <Banner></Banner>
           <Services></Services>
 

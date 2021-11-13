@@ -116,7 +116,7 @@ const AddService = () => {
                   <div className="login100-form-bgbtn"></div>
                   <input
                     type="submit"
-                    value="ADD OFFER"
+                    value="ADD ORDER"
                     className="login100-form-btn book-btn"
                   />
                 </div>

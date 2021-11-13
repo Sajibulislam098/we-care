@@ -12,6 +12,7 @@ const Header = () => {
     <div>
       <nav className="navbar navbar-expand-lg navBg ">
         <div className="container-fluid container">
+
         <NavLink to="/home" className="navbar-brand justify-content-center ">
             <img
               className="w-75 logo "
@@ -19,6 +20,9 @@ const Header = () => {
               alt=""
             />
           </NavLink>
+          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+          </button>
           <div
             className="collapse navbar-collapse justify-content-between"
             id="navbarNav"
@@ -85,17 +89,7 @@ const Header = () => {
               </div>
             )}
           </div>
-          <button
-            className="navbar-toggler bg-black "
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+         
         </div>
       </nav>
     </div>

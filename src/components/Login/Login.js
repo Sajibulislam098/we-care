@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { useHistory, useLocation } from "react-router";
 import "./Login.css";
 import useAuth from "../../hooks/useAuth";
+import Header from './../Header/Header';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -63,6 +64,7 @@ const Login = () => {
   },[])
 
   return (
+    <><Header></Header>
     <div className="login-container">
       {!checkUser ? (
         <div className="spinner d-flex align-items-center justify-content-center">
@@ -154,6 +156,7 @@ const Login = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 

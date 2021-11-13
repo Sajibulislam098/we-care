@@ -11,18 +11,18 @@ import Service from './../Service/Service';
 
 const services = [
     {
-        name: 'Fluoride Treatment',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa cumque enim! Voluptatibus aliquid expedita saepe accusantium itaque ducimus rem voluptas',
+        name: 'Home Security',
+        description: 'Vivamus posuere nibh faucibus dictum fermentum. Curabitur vel tellus ut elit tempus tristique eu vel ex.Vivamus posuere nibh faucibus dictum fermentum. Curabitur vel tellus ut elit tempus tristique eu vel ex.',
         img: home
     },
     {
-        name: 'Cavity Filling',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa cumque enim! Voluptatibus aliquid expedita saepe accusantium itaque ducimus rem voluptas',
+        name: 'Information Security',
+        description: 'Vivamus posuere nibh faucibus dictum fermentum. Curabitur vel tellus ut elit tempus tristique eu vel ex.Vivamus posuere nibh faucibus dictum fermentum. Curabitur vel tellus ut elit tempus tristique eu vel ex.',
         img: information
     },
     {
-        name: 'Teeth Whitening',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa cumque enim! Voluptatibus aliquid expedita saepe accusantium itaque ducimus rem voluptas',
+        name: 'Useful Support',
+        description: 'Vivamus posuere nibh faucibus dictum fermentum. Curabitur vel tellus ut elit tempus tristique eu vel ex.Vivamus posuere nibh faucibus dictum fermentum. Curabitur vel tellus ut elit tempus tristique eu vel ex.',
         img: support
     }
 ]

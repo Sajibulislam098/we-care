@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Offer from './../Offer/Offer';
+import Header from './../Header/Header';
 
 
 const Explore = (props) => {
@@ -15,21 +16,23 @@ const Explore = (props) => {
     }, []);
     console.log(products)
     return (
-        <div className="serviceBg">
-      <div className="container " id="offers">
-      <h2 className=" mt-5 d-flex justify-content-center mb-5 nameColor">
-       Order Here
-      </h2>
+      <div>
+        <Header></Header>
+      <div className="serviceBg">
+    <div className="container " id="offers">
+    <h2 className=" mt-5 d-flex justify-content-center mb-5 nameColor">
+     Order Here
+    </h2>
 
-      <div className="container">
-        <div className="row g-4 px-2">
-          {products.map((offer) => (
-            <Offer key={offer._id} data={offer}></Offer>
-          ))}
-        </div>
+    <div className="container">
+      <div className="row g-4 px-2">
+        {products.map((offer) => (
+          <Offer key={offer._id} data={offer}></Offer>
+        ))}
       </div>
     </div>
-    </div>
+  </div>
+  </div></div>
     );
 };
 

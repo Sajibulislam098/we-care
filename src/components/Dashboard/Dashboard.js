@@ -51,14 +51,20 @@ function Dashboard(props) {
       <Divider />
       <Typography style={{  color: "red",margin:"20px" }}>User DashBoard</Typography>
       <Divider />
-      <Link to="/explore" style={{ textDecoration: "none", color: "black" }}>
-        <Button color="inherit">Explore Product</Button>
-      </Link>
-      <Divider />
       <Link to={`${url}`} style={{ textDecoration: "none", color: "black" }}>
         <Button color="inherit">Dashboard</Button>
       </Link>
       <Divider />
+      <Link to="/home" style={{ textDecoration: "none", color: "black" }}>
+        <Button color="inherit">Back To Home</Button>
+      </Link>
+      <Divider />
+      <Link to="/explore" style={{ textDecoration: "none", color: "black" }}>
+        <Button color="inherit">Explore Product</Button>
+      </Link>
+     
+      <Divider />
+     
       <Link to={`${url}/review`}style={{ textDecoration: "none", color: "black" }}>
         <Button color="inherit">Review</Button>
       </Link>
@@ -119,15 +125,20 @@ function Dashboard(props) {
           ml: { sm: `${drawerWidth}px` },
         }}
       >
-        <IconButton
-          color="inherit"
-          aria-label="open drawer"
-          edge="start"
-          onClick={handleDrawerToggle}
-          sx={{ mr: 2, display: { sm: "none" } }}
-        >
-          <MenuIcon />
-        </IconButton>
+        <Toolbar>
+      <IconButton
+        color="inherit"
+        aria-label="open drawer"
+        edge="start"
+        onClick={handleDrawerToggle}
+        sx={{ mr: 2, display: { sm: "none" } }}
+      >
+        <MenuIcon />
+      </IconButton>
+      <Typography variant="h6" noWrap component="div">
+        Dashboard
+      </Typography>
+    </Toolbar>
       </AppBar>
       <Box
         component="nav"
