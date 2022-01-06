@@ -51,7 +51,41 @@ const About = () => {
        
       </div>
 
-    
+      <div class="row mt-5 mb-5">
+        <div class="col-sm ">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            {" "}
+            <h3 class="mb-5">Like Us On Facebook</h3>
+            <img
+              class="w-25 m-auto "
+              src="https://cliply.co/wp-content/uploads/2019/07/371907490_FACEBOOK_ICON_400px.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            {" "}
+            <h3  class="mb-5">Like Us On LinkedIn</h3>
+            <img
+              class="w-25 m-auto "
+              src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            {" "}
+            <h3  class="mb-5"> Like Us On Youtube</h3>
+            <img
+              class="w-25 m-auto "
+              src="https://cliply.co/wp-content/uploads/2019/07/371907120_YOUTUBE_ICON_400px.gif"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
     </div>
     </>
   );
