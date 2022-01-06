@@ -14,7 +14,7 @@ const Offers = (props) => {
      
 
       <div className="container">
-        <div className="row g-4 px-2">
+        <div className="row g-4 ">
           {offers.slice(0,6).map((offer) => (
             <Offer key={offer._id} data={offer}></Offer>
           ))}

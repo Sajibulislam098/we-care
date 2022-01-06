@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import "./Header.css";
-import { Button } from '@mui/material';
+import { Button } from "@mui/material";
 import { CloseButton } from "react-bootstrap";
 
 const Header = () => {
@@ -12,16 +12,23 @@ const Header = () => {
     <div>
       <nav className="navbar navbar-expand-lg navBg ">
         <div className="container-fluid container">
-
-        <NavLink to="/home" className="navbar-brand justify-content-center ">
+          <NavLink to="/home" className="navbar-brand justify-content-center ">
             <img
               className="w-75 logo "
               src="http://wordpress.zcube.in/wesecure/wp-content/themes/wesecure/inc/assets/images/logo.png"
               alt=""
             />
           </NavLink>
-          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+          <button
+            class="navbar-toggler bg-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div
             className="collapse navbar-collapse justify-content-between"
@@ -31,7 +38,7 @@ const Header = () => {
               <li className="nav-item">
                 <NavLink
                   to="/home"
-                  className="nav-link me-3"
+                  className="nav-link me-3 text-light"
                   activeClassName="active-nav"
                 >
                   Home
@@ -40,33 +47,37 @@ const Header = () => {
               <li className="nav-item">
                 <NavLink
                   to="/about"
-                  className="nav-link me-3"
+                  className="nav-link me-3 text-light"
                   activeClassName="active-nav"
                 >
                   About
                 </NavLink>
               </li>
               {user.email && (
-                <><NavLink
-                to="/dashboard"
-                style={{ textDecoration: "none", color: "black" ,fontWeight:"800"}}
-              >
-                <Button color="inherit">Dashboard</Button>
-              </NavLink>
-               
+                <>
+                  <NavLink
+                    to="/dashboard"
+                    style={{
+                      textDecoration: "none",
+                      color: "black",
+                      fontWeight: "800",
+                    }}
+                  >
+                    <Button color="inherit" className="text-light">Dashboard</Button>
+                  </NavLink>
                 </>
               )}
             </ul>
           </div>
-         
+
           <div
             className="collapse navbar-collapse justify-content-between ms-2"
             id="navbarNav"
           >
             {user.email ? (
-              <div className="d-flex user pb-3">
+              <div className="d-flex justify-content-center align-items-center user pb-3">
                 <li className="nav-item">
-                  <p className="user-name text-dark">{user.displayName}</p>
+                  <p className="user-name text-light">{user.displayName}</p>
                 </li>
                 <li className="nav-item pb">
                   <button
@@ -89,7 +100,6 @@ const Header = () => {
               </div>
             )}
           </div>
-         
         </div>
       </nav>
     </div>

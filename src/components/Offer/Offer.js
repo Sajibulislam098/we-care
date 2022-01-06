@@ -3,7 +3,7 @@ import { useHistory } from "react-router";
 import "./Offer.css";
 
 const Offer = (props) => {
-  const { _id, name, img, price, description, days, nights } = props.data;
+  const { _id, name, img, price, description } = props.data;
   const history = useHistory();
   const handleBook = ()=> {
       history.push(`/offers/${_id}`);

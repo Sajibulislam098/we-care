@@ -2,8 +2,6 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { Container } from '@mui/material';
-import Typography from '@mui/material/Typography';
-
 import home from '../../../assets/1.png';
 import information from '../../../assets/2.png';
 import support from '../../../assets/3.png';

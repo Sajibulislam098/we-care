@@ -9,6 +9,7 @@ import LastInfo from "./LastInfo/LastInfo";
 import Reviews from "./Reviews/Reviews";
 import Services from "./Services/Services";
 import Header from './../Header/Header';
+import ContactInfo from "./ContactInfo/ContactInfo";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,7 @@ const Home = () => {
           <Offers offers={offers}></Offers>
           <Reviews></Reviews>
           <LastInfo></LastInfo>
+          <ContactInfo></ContactInfo>
         </>
       )}
     </div>

@@ -1,11 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import useAuth from "../../hooks/useAuth";
-import Header from "../Header/Header";
 import "./Form.css";
 
 const Form = (props) => {
   const { user } = useAuth();
-  const { _id, name, price, days, nights } = props.data;
+  const { _id,  price } = props.data;
   const phoneRef = useRef(null);
   const addressRef = useRef(null);
   const [checkOrder, setCheckOrder] = useState(false);
@@ -32,10 +31,9 @@ const Form = (props) => {
         id: _id,
         userName: user.displayName,
         userEmail: user.email,
-        destinationName: name,
+        
         price: price,
-        // days: days,
-        // nights: nights,
+      
         phone: phone,
         address: address,
         status: "PENDING",

@@ -46,8 +46,6 @@ const MyBookings = () => {
                   <th scope="col">Name</th>
                   <th scope="col">Email</th>
                   <th scope="col">Phone</th>
-                 
-                
                   <th scope="col">Price</th>
                   <th scope="col">Status</th>
                 </tr>

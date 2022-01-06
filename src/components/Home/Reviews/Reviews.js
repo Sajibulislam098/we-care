@@ -11,7 +11,7 @@ const Reviews = () => {
     }, []);
     console.log(reviews)
     return (
-        <div className="container mt-5 mb-5 me-5">
+        <div className="container mt-5 mb-5">
             <h1>Here Some Reviews</h1>
             {/* {reviews.map(review=><Review  comment="comment"></Review>)} */}
        

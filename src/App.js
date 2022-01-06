@@ -4,7 +4,6 @@ import Login from "./components/Login/Login";
 import SignUp from "./components/SignUp/SignUp";
 import AuthProvider from "./context/AuthProvider";
 import Home from "./components/Home/Home";
-import Header from "./components/Header/Header";
 import BookOffer from "./components/BookOffer/BookOffer";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import MyBookings from "./components/MyBookings/MyBookings";

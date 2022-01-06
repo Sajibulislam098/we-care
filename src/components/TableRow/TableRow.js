@@ -6,7 +6,6 @@ const TableRow = (props) => {
     _id,
     userName,
     userEmail,
-    destinationName,
     price,
    
     status,
